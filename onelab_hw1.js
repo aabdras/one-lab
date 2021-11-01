@@ -15,7 +15,7 @@ console.log('Четные числа: '+numbersList.filter(x=>x%2==0))
 console.log('Нечетные числа: '+numbersList.filter(x=>x%2==1))
 
 console.log('Список городов, которые начинаются с буквы K:')
-console.log(cities.filter(x => x.name.substr(0,1)=='K'))
+console.log(cities.filter(x => x.name.startsWith("K")))
 
 console.log('Названия городов: ')
 cities.map(x=>console.log(x.name+''))
